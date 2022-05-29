@@ -50,8 +50,8 @@ dependencies {
     kapt AndroidX.room.compiler
 
     // ThreeTenABP
-    implementation "com.jakewharton.threetenabp:threetenabp:_"
-    testImplementation "org.threeten:threetenbp:_"
+    implementation 'com.jakewharton.threetenabp:threetenabp:1.4.0'
+    testImplementation 'org.threeten:threetenbp:1.6.0'
 
     // Testing dependencies
     testImplementation Testing.junit4

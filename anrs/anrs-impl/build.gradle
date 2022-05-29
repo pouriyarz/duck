@@ -40,7 +40,7 @@ dependencies {
     implementation AndroidX.room.rxJava2
     implementation AndroidX.room.ktx
     implementation AndroidX.room.rxJava2
-    implementation "com.jakewharton.threetenabp:threetenabp:_"
+    implementation 'com.jakewharton.threetenabp:threetenabp:1.4.0'
 }
 
 android {

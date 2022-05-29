@@ -1,0 +1,28 @@
+-multidex
+-dontwarn org.yaml.snakeyaml.introspector.MethodProperty
+-dontwarn org.yaml.snakeyaml.introspector.PropertyUtils
+-dontwarn org.yaml.snakeyaml.error.YAMLException
+-dontwarn org.yaml.snakeyaml.constructor.Constructor
+-dontwarn org.yaml.snakeyaml.TypeDescription
+-dontwarn org.yaml.snakeyaml.Yaml
+-dontwarn org.yaml.snakeyaml.error.YAMLException
+-keep class org.webrtc.** { *; }
+-keepresources string/**
+-keepresourcefiles **/**.so
+-adaptresourcefilecontents !**/**.so
+-keepresources layout/**
+
+-keep public class * implements com.bumptech.glide.module.GlideModule
+-keep class * extends com.bumptech.glide.module.AppGlideModule {
+ <init>(...);
+}
+-keep public enum com.bumptech.glide.load.ImageHeaderParser$** {
+  **[] $VALUES;
+  public *;
+}
+-keep class com.bumptech.glide.load.data.ParcelFileDescriptorRewinder$InternalRewinder {
+  *** rewind();
+}
+
+# Uncomment for DexGuard only
+#-keepresourcexmlelements manifest/application/meta-data@value=GlideModule

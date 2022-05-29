@@ -70,7 +70,7 @@ dependencies {
     implementation AndroidX.room.rxJava2
     implementation AndroidX.room.ktx
 
-    testImplementation "org.mockito.kotlin:mockito-kotlin:_"
+    testImplementation 'org.mockito.kotlin:mockito-kotlin:4.0.0'
     testImplementation Testing.junit4
     testImplementation AndroidX.archCore.testing
     testImplementation (KotlinX.coroutines.test) {

@@ -29,7 +29,7 @@ dependencies {
     implementation JakeWharton.timber
 
     testImplementation Testing.junit4
-    testImplementation "org.mockito.kotlin:mockito-kotlin:_"
+    testImplementation 'org.mockito.kotlin:mockito-kotlin:4.0.0'
 
     testImplementation (KotlinX.coroutines.test) {
         // https://github.com/Kotlin/kotlinx.coroutines/issues/2023

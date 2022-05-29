@@ -42,6 +42,6 @@ dependencies {
     // just to get the dagger annotations
     implementation Google.dagger
 
-    implementation "androidx.core:core-ktx:_"
-    implementation "androidx.localbroadcastmanager:localbroadcastmanager:_"
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.1.0'
 }

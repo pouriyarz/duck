@@ -42,13 +42,13 @@ dependencies {
     implementation Square.retrofit2.retrofit
     implementation Square.retrofit2.converter.moshi
     implementation Square.moshi
-    implementation "com.squareup.moshi:moshi-kotlin:_"
-    implementation "com.squareup.moshi:moshi-adapters:_"
+    implementation 'com.squareup.moshi:moshi-kotlin:1.13.0'
+    implementation 'com.squareup.moshi:moshi-adapters:1.13.0'
     implementation Google.dagger
     implementation AndroidX.room.ktx
 
     testImplementation project(path: ':common-test')
-    testImplementation "org.threeten:threetenbp:_"
+    testImplementation 'org.threeten:threetenbp:1.6.0'
     testImplementation Testing.junit4
     testImplementation Testing.mockito.kotlin
     testImplementation (KotlinX.coroutines.test) {
@@ -62,8 +62,8 @@ dependencies {
     androidTestImplementation AndroidX.test.runner
     androidTestImplementation AndroidX.test.rules
     androidTestImplementation CashApp.turbine
-    androidTestImplementation "org.mockito:mockito-android:_"
-    androidTestImplementation "org.mockito.kotlin:mockito-kotlin:_"
+    androidTestImplementation 'org.mockito:mockito-android:4.6.0'
+    androidTestImplementation 'org.mockito.kotlin:mockito-kotlin:4.0.0'
 }
 
 android {

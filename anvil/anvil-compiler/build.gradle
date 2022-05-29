@@ -30,12 +30,12 @@ java {
 dependencies {
     implementation project(path: ':anvil-annotations')
 
-    api "com.squareup.anvil:compiler-api:${anvil_version}"
-    implementation("com.squareup.anvil:compiler-utils:${anvil_version}")
+    api "com.squareup.anvil:compiler-api:2.4.0"
+    implementation("com.squareup.anvil:compiler-utils:2.4.0")
     implementation("com.squareup:kotlinpoet:1.11.0")
     implementation Google.dagger
 
-    compileOnly "com.google.auto.service:auto-service-annotations:1.0"
-    kapt "com.google.auto.service:auto-service:1.0"
+    compileOnly 'com.google.auto.service:auto-service-annotations:1.0.1'
+    kapt 'com.google.auto.service:auto-service:1.0.1'
 }
 

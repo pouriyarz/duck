@@ -41,8 +41,8 @@ dependencies {
         exclude group: "org.jetbrains.kotlinx", module: "kotlinx-coroutines-debug"
     }
 
-    implementation "com.jakewharton.threetenabp:threetenabp:_"
-    testImplementation "org.threeten:threetenbp:_"
+    implementation 'com.jakewharton.threetenabp:threetenabp:1.4.0'
+    testImplementation 'org.threeten:threetenbp:1.6.0'
 
     implementation JakeWharton.timber
 
@@ -58,21 +58,21 @@ dependencies {
     implementation Square.okHttp3.okHttp
 
     // Testing dependencies
-    testImplementation "org.mockito.kotlin:mockito-kotlin:_"
+    testImplementation 'org.mockito.kotlin:mockito-kotlin:4.0.0'
     testImplementation Testing.junit4
     testImplementation AndroidX.test.ext.junit
     testImplementation AndroidX.archCore.testing
-    testImplementation 'app.cash.turbine:turbine:_'
+    testImplementation 'app.cash.turbine:turbine:0.8.0'
     testImplementation Testing.robolectric
 
     androidTestImplementation AndroidX.archCore.testing
-    androidTestImplementation 'app.cash.turbine:turbine:_'
+    androidTestImplementation 'app.cash.turbine:turbine:0.8.0'
 
     androidTestImplementation AndroidX.test.runner
     androidTestImplementation AndroidX.test.rules
 
-    androidTestImplementation "org.mockito:mockito-android:_"
-    androidTestImplementation "org.mockito.kotlin:mockito-kotlin:_"
+    androidTestImplementation 'org.mockito:mockito-android:4.6.0'
+    androidTestImplementation 'org.mockito.kotlin:mockito-kotlin:4.0.0'
 
     testImplementation project(path: ':common-test')
     androidTestImplementation project(path: ':common-test')

@@ -29,7 +29,7 @@ dependencies {
     implementation KotlinX.coroutines.android
     implementation AndroidX.room.runtime
 
-    implementation "com.jakewharton.threetenabp:threetenabp:_"
+    implementation 'com.jakewharton.threetenabp:threetenabp:1.4.0'
 
     kapt AndroidX.room.compiler
 }

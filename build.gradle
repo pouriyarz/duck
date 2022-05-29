@@ -15,12 +15,16 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url '${project.rootDir}/../../DexGuard-9.2.9/lib'
+        }
         maven { url "https://plugins.gradle.org/m2/" }
         flatDir {
             dirs "$rootProject.projectDir/libs"
         }
     }
     dependencies {
+        classpath "com.guardsquare:dexguard-gradle-plugin:+"
         classpath "com.android.tools.build:gradle:$gradle_plugin"
         classpath "com.diffplug.spotless:spotless-plugin-gradle:$spotless"
         classpath "com.squareup.anvil:gradle-plugin:$anvil_version"

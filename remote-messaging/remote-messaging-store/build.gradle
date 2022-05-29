@@ -38,9 +38,9 @@ android {
 dependencies {
     implementation AndroidX.room.ktx
     kapt AndroidX.room.compiler
-    implementation "com.jakewharton.threetenabp:threetenabp:_"
+    implementation 'com.jakewharton.threetenabp:threetenabp:1.4.0'
 
     testImplementation project(path: ':common-test')
-    testImplementation "org.threeten:threetenbp:_"
+    testImplementation 'org.threeten:threetenbp:1.6.0'
     testImplementation Testing.junit4
 }

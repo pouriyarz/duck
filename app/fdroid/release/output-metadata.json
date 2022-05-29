@@ -1,0 +1,25 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.zarebin.browser",
+  "variantName": "fdroidRelease",
+  "elements": [
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "armeabi-v7a"
+        }
+      ],
+      "attributes": [],
+      "versionCode": 51262000,
+      "versionName": "5.126.2",
+      "outputFile": "duckduckgo-5.126.2-fdroid-armeabi-v7a-release.apk"
+    }
+  ],
+  "elementType": "File"
+}

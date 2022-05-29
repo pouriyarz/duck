@@ -62,12 +62,12 @@ dependencies {
     testImplementation project(path: ':common-test')
     testImplementation AndroidX.work.testing
     testImplementation AndroidX.room.testing
-    testImplementation "org.mockito.kotlin:mockito-kotlin:_"
+    testImplementation 'org.mockito.kotlin:mockito-kotlin:4.0.0'
     testImplementation Testing.junit4
     testImplementation AndroidX.archCore.testing
     testImplementation AndroidX.core
     testImplementation AndroidX.test.ext.junit
-    testImplementation "androidx.test:runner:_"
+    testImplementation 'androidx.test:runner:1.4.0'
     testImplementation Testing.robolectric
     testImplementation CashApp.turbine
 

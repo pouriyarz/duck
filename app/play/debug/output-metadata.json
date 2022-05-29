@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.duckduckgo.mobile.android.debug",
+  "variantName": "playDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 51262000,
+      "versionName": "5.126.2",
+      "outputFile": "duckduckgo-5.126.2-play-debug.apk"
+    }
+  ],
+  "elementType": "File"
+}
